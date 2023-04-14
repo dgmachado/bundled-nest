@@ -19,8 +19,10 @@ After running the sample, you can stop the Docker container with
 
 `docker-compose down`
 
+### Build the sample
+
+`npm run build:webpack`
+
 ### Run the sample
 
-Then, run Nest as usual:
-
-`npm run start`
+`npm run start:webpack`

@@ -30,7 +30,7 @@ module.exports = {
   },
   plugins: [
     // new webpack.HotModuleReplacementPlugin(),
-    new RunScriptWebpackPlugin({ name: 'server.js', autoRestart: false }),
+   // new RunScriptWebpackPlugin({ name: 'server.js', autoRestart: false }),
     new webpack.IgnorePlugin({
       /**
        * There is a small problem with Nest's idea of lazy require() calls,
